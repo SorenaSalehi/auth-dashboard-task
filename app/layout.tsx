@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Auth Dashboard task",
-    description: "A task  by Decamod Co. auth dashboard task",
+    description: "A task  by Decamond Co. An auth dashboard task",
 };
 
 export default function RootLayout({

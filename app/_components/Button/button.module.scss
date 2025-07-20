@@ -1,0 +1,23 @@
+.button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: inline-block;
+    text-align: center;
+}
+.primary {
+    background-color: #0070f3;
+    color: #fff;
+
+    &:hover {
+        background-color: #005bb5;
+    }
+}
+
+.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
